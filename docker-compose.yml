@@ -1,0 +1,11 @@
+services:
+  blogdashboard:
+    container_name: blogdashboard
+    image: image_blogdashboard
+    build: .
+    networks:
+      - my_network
+
+networks:
+  my_network:
+    external: true

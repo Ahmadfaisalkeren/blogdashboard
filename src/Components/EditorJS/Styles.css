@@ -1,0 +1,166 @@
+body,
+html {
+  font-family: "Poppins", sans-serif;
+}
+
+.editor-container {
+  min-height: 400px;
+  border: 1px solid #ddd;
+  padding: 15px;
+  line-height: 1.5;
+}
+
+.input-field {
+  font-weight: 400;
+  font-size: 16px;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.editorjs-container {
+  border: 1px solid #ddd;
+  padding: 15px;
+
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 15px;
+}
+
+.editor-container .ce-paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+.editorjs-container .ce-header {
+  font-weight: 400;
+  color: #131a22;
+}
+
+.ce-header {
+  font-weight: 700;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.editorjs-container h1 {
+  font-size: 2.5rem !important;
+}
+
+.editorjs-container h2 {
+  font-size: 2rem !important;
+}
+
+.editorjs-container h3 {
+  font-size: 1.75rem !important;
+}
+
+.editorjs-container h4 {
+  font-size: 1.5rem !important;
+}
+
+.editorjs-container h5 {
+  font-size: 1.25rem !important;
+}
+
+.editorjs-container h6 {
+  font-size: 1rem !important;
+}
+
+.editor-container .ce-code {
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  font-family: "Courier New", monospace;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.editor-container .ce-list {
+  margin-left: 20px;
+  list-style-type: disc;
+}
+
+.editor-container .ce-list-item {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.editor-container p {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 1em;
+}
+
+.editor-container h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #131a22;
+}
+
+.editor-container h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #131a22;
+}
+
+.editor-container h3 {
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: #131a22;
+}
+
+.editor-container h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #131a22;
+}
+
+.editor-container h5 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #131a22;
+}
+
+.editor-container h6 {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #131a22;
+}
+
+.save-button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  margin-right: 3px;
+}
+
+.save-button:hover {
+  background-color: #0056b3;
+}
+
+.cancel-button {
+  padding: 5px 10px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.cancel-button:hover {
+  background-color: #c82333;
+}
